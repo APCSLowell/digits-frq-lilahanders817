@@ -5,6 +5,7 @@ public class Digits{
 	private ArrayList<Integer> digitList;
 
 	public Digits(int num){ 
+		digitList = new ArrayList<Integer>();
 		int myNum = num;
 		while(myNum >= 10){
 			digitList.add(0, myNum%10);
